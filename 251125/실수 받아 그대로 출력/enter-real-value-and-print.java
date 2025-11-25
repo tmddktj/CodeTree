@@ -6,6 +6,6 @@ public class Main {
 
         double N = sc.nextDouble();
         double result = Math.round(N * 100) / 100.0;
-        System.out.println(result);
+        System.out.printf("%.2f", result);
     }
 }
