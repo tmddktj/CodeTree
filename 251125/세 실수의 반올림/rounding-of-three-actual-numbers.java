@@ -12,10 +12,6 @@ public class Main {
         double num2 = Math.round(b * 1000) / 1000.0;
         double num3 = Math.round(c * 1000) / 1000.0;
 
-        System.out.printf("%.3f", num1);
-        System.out.println();
-        System.out.printf("%.3f", num2);
-        System.out.println();
-        System.out.printf("%.3f", num3);
+        System.out.printf("%.3f\n%.3f\n%.3f", num1, num2, num3);
     }
 }
