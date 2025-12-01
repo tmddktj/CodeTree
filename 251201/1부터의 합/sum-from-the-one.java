@@ -6,15 +6,13 @@ public class Main {
 
         int n = sc.nextInt();
         int sum = 0;
-        int num = 0;
 
         for(int i = 1; i<101; i++){
             sum += i;
             if(sum>=n){
-                num = i;
+                System.out.println(i);
                 break;
             }
         }
-        System.out.println(num);
     }
 }
