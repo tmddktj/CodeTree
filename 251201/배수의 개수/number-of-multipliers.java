@@ -10,9 +10,6 @@ public class Main {
 
         for(int i = 0; i<10; i++){
             numbers[i] = sc.nextInt();
-        }
-
-        for(int i = 0; i<10; i++){
             if(numbers[i] % 3 == 0){
                 third += 1;
             }
@@ -20,6 +17,7 @@ public class Main {
                 fifth += 1;
             }
         }
+
         System.out.println(third + " " + fifth);
     }
 }
