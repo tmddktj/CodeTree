@@ -10,11 +10,7 @@ public class Main {
         int cnt = 0;
 
         for(int i = 0; i<5; i++){
-            if(charc == fruits[i].charAt(2)){
-                System.out.println(fruits[i]);
-                cnt += 1;
-            }
-            if(charc == fruits[i].charAt(3)){
+            if((charc == fruits[i].charAt(2)) || (charc == fruits[i].charAt(3))){
                 System.out.println(fruits[i]);
                 cnt += 1;
             }
