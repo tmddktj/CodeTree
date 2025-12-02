@@ -6,21 +6,14 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int n = 0;
+        int n = a;
 
-        while(true){
-            if(a%2 == 0){
-                System.out.print(a + " ");
-                a += 3;
-                if(a>b){
-                    break;
-                }
+        while(n<=b){
+            System.out.print(n + " ");
+            if(n%2 == 0){
+                n += 3;
             } else {
-                System.out.print(a + " ");
-                a *= 2;
-                if(a>b){
-                    break;
-                }
+                n *= 2;
             }
         } 
     }
