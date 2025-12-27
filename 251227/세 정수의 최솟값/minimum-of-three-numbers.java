@@ -8,7 +8,7 @@ public class Main {
 
         for(int i = 0; i<3; i++){
             arr[i] = sc.nextInt();
-            if(arr[i]<min){
+            if(arr[i] < min){
                 min = arr[i];
             }
         }
