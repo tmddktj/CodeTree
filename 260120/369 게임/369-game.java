@@ -21,12 +21,9 @@ public class Main {
             }
 
             if(check){
-                System.out.print(0);
+                System.out.print(0 + " ");
             } else{
-                System.out.print(i);
-            }
-            if(i < n){
-                System.out.print(" ");
+                System.out.print(i + " ");
             }
         }
     }
