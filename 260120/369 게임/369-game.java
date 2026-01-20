@@ -12,7 +12,7 @@ public class Main {
             }
             int num = i;
             while(num > 0){
-                int lastNum = i % 10;
+                int lastNum = num % 10;
                 if(lastNum == 3 || lastNum == 6 || lastNum == 9){
                     check = true;
                     break;
